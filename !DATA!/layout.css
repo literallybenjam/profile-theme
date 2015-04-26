@@ -232,12 +232,17 @@ hr {
     height: 0;
 }
 
-img {
+img, img[data-shape="rectangle"] {
     display: inline-block;
     margin: 9pt 7.5pt;
+    border-radius: 0;
     padding: 0;
     width: 150pt;
     height: auto;
+}
+
+img[data-shape="circle"] {
+    border-radius: 50%;
 }
 
 blockquote img, dt img, dd img, figcaption img, li img, nav img, p img, pre img {
