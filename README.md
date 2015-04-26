@@ -30,6 +30,10 @@ To use the PROFILE theme, you should structure your page according to the follow
 
 You can include other children of the `<body>` element if you want, but there should be exactly one `<header>` child.
 
+## PROFILE IMAGE
+
+The profile image selected by `header > img` is, by default, circular. If you prefer a rectangular shape, you can select this by setting the `data-shape` attribute to `"rectangle"` on the `<img>` element.
+
 ## COLOURS
 
 You can change the colour of an element by using the `data-colour` attribute (note `data-color` is not currently supported). The following colour-names are available:

@@ -256,12 +256,16 @@ figure > img, figure > a > img {
     max-width: 100%;
 }
 
-body > header > img {
+body > header > img, body > header > img[data-shape="circle"] {
     display: block;
     margin: 0 auto 15pt;
     border-radius: 67.5pt;
     width: 135pt;
     height: 135pt;
+}
+
+body > header > img[data-shape="rectangle"] {
+    border-radius: 0;
 }
 
 td > img:only-of-type, th > img:only-of-type {
