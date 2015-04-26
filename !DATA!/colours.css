@@ -65,7 +65,7 @@ a[href] *:not([data-colour]) {
     color: #49cfa2;
 }
 
-* [data-colour="light"] {
+*[data-colour="light"] {
     color: #f5f5f5;
 }
 *[data-colour="cyan-light"] {
