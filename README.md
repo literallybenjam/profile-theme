@@ -34,7 +34,7 @@ You can include other children of the `<body>` element if you want, but there sh
 
 The profile image selected by `header > img` is, by default, circular. If you prefer a rectangular shape, you can select this by setting the `data-shape` attribute to `"rectangle"` on the `<img>` element.
 
-You can use the `data-shape` attribute on other `<img>` elements to create a circular shape.
+You can set the `data-shape` attribute to `"circle"` on other `<img>` elements to create a circular shape.
 
 ## COLOURS
 
